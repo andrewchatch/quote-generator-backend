@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 app.use('/quotes', quotesRouter);
 
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
 
